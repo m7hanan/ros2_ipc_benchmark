@@ -1,0 +1,4 @@
+[console_scripts]
+dummy_lidar_pub = benchmark_nodes.dummy_lidar_pub:main
+latency_sub = benchmark_nodes.latency_sub:main
+resource_monitor = benchmark_nodes.resource_monitor:main

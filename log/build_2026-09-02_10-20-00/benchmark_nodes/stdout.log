@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/benchmark_nodes/benchmark_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/benchmark_nodes/benchmark_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/benchmark_nodes/benchmark_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/benchmark_nodes/benchmark_nodes.egg-info/requires.txt
+writing top-level names to ../../build/benchmark_nodes/benchmark_nodes.egg-info/top_level.txt
+reading manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+copying benchmark_nodes/resource_monitor.py -> /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes
+running install
+running install_lib
+copying /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes/resource_monitor.py -> /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes
+byte-compiling /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes/resource_monitor.py to resource_monitor.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes-0.0.1-py3.12.egg-info' (and everything under it)
+Copying ../../build/benchmark_nodes/benchmark_nodes.egg-info to /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes-0.0.1-py3.12.egg-info
+running install_scripts
+Installing dummy_lidar_pub script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes
+Installing latency_sub script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes
+Installing resource_monitor script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes
+writing list of installed files to '/ros2_ws/build/benchmark_nodes/install.log'

@@ -1,0 +1,41 @@
+[5.693s] Invoking command in '/ros2_ws/src/benchmark_nodes': PYTHONPATH=/ros2_ws/build/benchmark_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/benchmark_nodes build --build-base /ros2_ws/build/benchmark_nodes/build install --record /ros2_ws/build/benchmark_nodes/install.log --install-scripts $base/lib/benchmark_nodes --single-version-externally-managed install_data
+[7.668s] running egg_info
+[7.670s] creating ../../build/benchmark_nodes/benchmark_nodes.egg-info
+[7.788s] writing ../../build/benchmark_nodes/benchmark_nodes.egg-info/PKG-INFO
+[7.791s] writing dependency_links to ../../build/benchmark_nodes/benchmark_nodes.egg-info/dependency_links.txt
+[7.793s] writing entry points to ../../build/benchmark_nodes/benchmark_nodes.egg-info/entry_points.txt
+[7.795s] writing requirements to ../../build/benchmark_nodes/benchmark_nodes.egg-info/requires.txt
+[7.796s] writing top-level names to ../../build/benchmark_nodes/benchmark_nodes.egg-info/top_level.txt
+[7.797s] writing manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'
+[8.037s] reading manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'
+[8.043s] writing manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'
+[8.044s] running build
+[8.045s] running build_py
+[8.046s] creating /ros2_ws/build/benchmark_nodes/build
+[8.048s] creating /ros2_ws/build/benchmark_nodes/build/lib
+[8.049s] creating /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes
+[8.049s] copying benchmark_nodes/dummy_lidar_pub.py -> /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes
+[8.051s] copying benchmark_nodes/latency_sub.py -> /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes
+[8.052s] copying benchmark_nodes/__init__.py -> /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes
+[8.053s] running install
+[8.103s] running install_lib
+[8.222s] creating /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes
+[8.223s] copying /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes/dummy_lidar_pub.py -> /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes
+[8.224s] copying /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes/latency_sub.py -> /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes
+[8.226s] copying /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes/__init__.py -> /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes
+[8.231s] byte-compiling /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes/dummy_lidar_pub.py to dummy_lidar_pub.cpython-312.pyc
+[8.237s] byte-compiling /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes/latency_sub.py to latency_sub.cpython-312.pyc
+[8.244s] byte-compiling /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes/__init__.py to __init__.cpython-312.pyc
+[8.245s] running install_data
+[8.247s] creating /ros2_ws/install/benchmark_nodes/share/ament_index
+[8.248s] creating /ros2_ws/install/benchmark_nodes/share/ament_index/resource_index
+[8.250s] creating /ros2_ws/install/benchmark_nodes/share/ament_index/resource_index/packages
+[8.251s] copying resource/benchmark_nodes -> /ros2_ws/install/benchmark_nodes/share/ament_index/resource_index/packages
+[8.252s] copying package.xml -> /ros2_ws/install/benchmark_nodes/share/benchmark_nodes
+[8.253s] running install_egg_info
+[8.383s] Copying ../../build/benchmark_nodes/benchmark_nodes.egg-info to /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes-0.0.1-py3.12.egg-info
+[8.394s] running install_scripts
+[9.392s] Installing dummy_lidar_pub script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes
+[9.395s] Installing latency_sub script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes
+[9.396s] writing list of installed files to '/ros2_ws/build/benchmark_nodes/install.log'
+[9.568s] Invoked command in '/ros2_ws/src/benchmark_nodes' returned '0': PYTHONPATH=/ros2_ws/build/benchmark_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/benchmark_nodes build --build-base /ros2_ws/build/benchmark_nodes/build install --record /ros2_ws/build/benchmark_nodes/install.log --install-scripts $base/lib/benchmark_nodes --single-version-externally-managed install_data

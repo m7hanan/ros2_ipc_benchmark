@@ -1,0 +1,13 @@
+=== ROS2 Fast DDS Benchmark ===
+Date: 2026-09-02
+Platform: Laptop (Docker)
+Message: sensor_msgs/LaserScan, 720 ranges
+Rate: 10 Hz
+Samples: 1000
+
+Latency (microseconds):
+Mean: 3826.19
+Median: 3634.08
+Std Dev: 4286.94
+Min: 2699.32
+Max: 134642.61

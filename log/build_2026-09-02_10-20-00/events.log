@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.001026] (benchmark_nodes) JobQueued: {'identifier': 'benchmark_nodes', 'dependencies': OrderedDict()}
+[0.001351] (benchmark_nodes) JobStarted: {'identifier': 'benchmark_nodes'}
+[0.094126] (-) TimerEvent: {}
+[0.195290] (-) TimerEvent: {}
+[0.296563] (-) TimerEvent: {}
+[0.397879] (-) TimerEvent: {}
+[0.498961] (-) TimerEvent: {}
+[0.600056] (-) TimerEvent: {}
+[0.701152] (-) TimerEvent: {}
+[0.802329] (-) TimerEvent: {}
+[0.903398] (-) TimerEvent: {}
+[1.004711] (-) TimerEvent: {}
+[1.105955] (-) TimerEvent: {}
+[1.207051] (-) TimerEvent: {}
+[1.308060] (-) TimerEvent: {}
+[1.409131] (-) TimerEvent: {}
+[1.510145] (-) TimerEvent: {}
+[1.611174] (-) TimerEvent: {}
+[1.712432] (-) TimerEvent: {}
+[1.813611] (-) TimerEvent: {}
+[1.914646] (-) TimerEvent: {}
+[2.015970] (-) TimerEvent: {}
+[2.117001] (-) TimerEvent: {}
+[2.218153] (-) TimerEvent: {}
+[2.319140] (-) TimerEvent: {}
+[2.420374] (-) TimerEvent: {}
+[2.521606] (-) TimerEvent: {}
+[2.622922] (-) TimerEvent: {}
+[2.724042] (-) TimerEvent: {}
+[2.825092] (-) TimerEvent: {}
+[2.926107] (-) TimerEvent: {}
+[3.027109] (-) TimerEvent: {}
+[3.128119] (-) TimerEvent: {}
+[3.229133] (-) TimerEvent: {}
+[3.330157] (-) TimerEvent: {}
+[3.431190] (-) TimerEvent: {}
+[3.532580] (-) TimerEvent: {}
+[3.633787] (-) TimerEvent: {}
+[3.735077] (-) TimerEvent: {}
+[3.836074] (-) TimerEvent: {}
+[3.937282] (-) TimerEvent: {}
+[4.038589] (-) TimerEvent: {}
+[4.139736] (-) TimerEvent: {}
+[4.240727] (-) TimerEvent: {}
+[4.341720] (-) TimerEvent: {}
+[4.442719] (-) TimerEvent: {}
+[4.543695] (-) TimerEvent: {}
+[4.644649] (-) TimerEvent: {}
+[4.745657] (-) TimerEvent: {}
+[4.846973] (-) TimerEvent: {}
+[4.947987] (-) TimerEvent: {}
+[5.048989] (-) TimerEvent: {}
+[5.150010] (-) TimerEvent: {}
+[5.251055] (-) TimerEvent: {}
+[5.352148] (-) TimerEvent: {}
+[5.453199] (-) TimerEvent: {}
+[5.554589] (-) TimerEvent: {}
+[5.594602] (benchmark_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/benchmark_nodes', 'build', '--build-base', '/ros2_ws/build/benchmark_nodes/build', 'install', '--record', '/ros2_ws/build/benchmark_nodes/install.log', '--install-scripts', '$base/lib/benchmark_nodes', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/benchmark_nodes', 'env': {'HOSTNAME': 'hanan', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/benchmark_nodes:/opt/ros/jazzy', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/build/benchmark_nodes', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/benchmark_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages:/ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.654934] (-) TimerEvent: {}
+[5.755958] (-) TimerEvent: {}
+[5.857000] (-) TimerEvent: {}
+[5.958026] (-) TimerEvent: {}
+[6.059019] (-) TimerEvent: {}
+[6.160059] (-) TimerEvent: {}
+[6.261101] (-) TimerEvent: {}
+[6.362067] (-) TimerEvent: {}
+[6.463267] (-) TimerEvent: {}
+[6.564303] (-) TimerEvent: {}
+[6.665697] (-) TimerEvent: {}
+[6.766669] (-) TimerEvent: {}
+[6.867848] (-) TimerEvent: {}
+[6.968748] (-) TimerEvent: {}
+[7.069657] (-) TimerEvent: {}
+[7.170661] (-) TimerEvent: {}
+[7.271672] (-) TimerEvent: {}
+[7.372683] (-) TimerEvent: {}
+[7.473715] (-) TimerEvent: {}
+[7.496224] (benchmark_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[7.574034] (-) TimerEvent: {}
+[7.611729] (benchmark_nodes) StdoutLine: {'line': b'writing ../../build/benchmark_nodes/benchmark_nodes.egg-info/PKG-INFO\n'}
+[7.613540] (benchmark_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/benchmark_nodes/benchmark_nodes.egg-info/dependency_links.txt\n'}
+[7.615310] (benchmark_nodes) StdoutLine: {'line': b'writing entry points to ../../build/benchmark_nodes/benchmark_nodes.egg-info/entry_points.txt\n'}
+[7.616935] (benchmark_nodes) StdoutLine: {'line': b'writing requirements to ../../build/benchmark_nodes/benchmark_nodes.egg-info/requires.txt\n'}
+[7.618413] (benchmark_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/benchmark_nodes/benchmark_nodes.egg-info/top_level.txt\n'}
+[7.674344] (-) TimerEvent: {}
+[7.775328] (-) TimerEvent: {}
+[7.858252] (benchmark_nodes) StdoutLine: {'line': b"reading manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'\n"}
+[7.865283] (benchmark_nodes) StdoutLine: {'line': b"writing manifest file '../../build/benchmark_nodes/benchmark_nodes.egg-info/SOURCES.txt'\n"}
+[7.866968] (benchmark_nodes) StdoutLine: {'line': b'running build\n'}
+[7.867964] (benchmark_nodes) StdoutLine: {'line': b'running build_py\n'}
+[7.869374] (benchmark_nodes) StdoutLine: {'line': b'copying benchmark_nodes/resource_monitor.py -> /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes\n'}
+[7.872281] (benchmark_nodes) StdoutLine: {'line': b'running install\n'}
+[7.875651] (-) TimerEvent: {}
+[7.921121] (benchmark_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[7.975969] (-) TimerEvent: {}
+[8.040802] (benchmark_nodes) StdoutLine: {'line': b'copying /ros2_ws/build/benchmark_nodes/build/lib/benchmark_nodes/resource_monitor.py -> /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes\n'}
+[8.046217] (benchmark_nodes) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes/resource_monitor.py to resource_monitor.cpython-312.pyc\n'}
+[8.051049] (benchmark_nodes) StdoutLine: {'line': b'running install_data\n'}
+[8.052625] (benchmark_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.076288] (-) TimerEvent: {}
+[8.177267] (-) TimerEvent: {}
+[8.180555] (benchmark_nodes) StdoutLine: {'line': b"removing '/ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[8.184289] (benchmark_nodes) StdoutLine: {'line': b'Copying ../../build/benchmark_nodes/benchmark_nodes.egg-info to /ros2_ws/install/benchmark_nodes/lib/python3.12/site-packages/benchmark_nodes-0.0.1-py3.12.egg-info\n'}
+[8.194894] (benchmark_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[8.277649] (-) TimerEvent: {}
+[8.378634] (-) TimerEvent: {}
+[8.479981] (-) TimerEvent: {}
+[8.580994] (-) TimerEvent: {}
+[8.682005] (-) TimerEvent: {}
+[8.782998] (-) TimerEvent: {}
+[8.884209] (-) TimerEvent: {}
+[8.985260] (-) TimerEvent: {}
+[9.074746] (benchmark_nodes) StdoutLine: {'line': b'Installing dummy_lidar_pub script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes\n'}
+[9.076374] (benchmark_nodes) StdoutLine: {'line': b'Installing latency_sub script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes\n'}
+[9.077846] (benchmark_nodes) StdoutLine: {'line': b'Installing resource_monitor script to /ros2_ws/install/benchmark_nodes/lib/benchmark_nodes\n'}
+[9.080710] (benchmark_nodes) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/benchmark_nodes/install.log'\n"}
+[9.085659] (-) TimerEvent: {}
+[9.186690] (-) TimerEvent: {}
+[9.247702] (benchmark_nodes) CommandEnded: {'returncode': 0}
+[9.287026] (-) TimerEvent: {}
+[9.331336] (benchmark_nodes) JobEnded: {'identifier': 'benchmark_nodes', 'rc': 0}
+[9.338324] (-) EventReactorShutdown: {}
